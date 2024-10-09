@@ -4,8 +4,8 @@ import pandas as pd
 import pickle  # If your model is saved as a pickle file
 
 import plotly.express as px
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+#temp = pathlib.PosixPath
+#pathlib.PosixPath = pathlib.WindowsPath
 
 # Load our pre-trained model (replace 'text_classify_model.pkl' with your actual model file)
 def load_model():
